@@ -21,12 +21,12 @@ def predict(image_path):
 
 def predict(image_path):
     # Load the model file from GitHub
-    model_url = "https://raw.githubusercontent.com/princebari/Malaria-Disease-Detection-Using-Transfer-Learning/main/InceptionV3.h5"
-    model_path = "InceptionV3.h5"
-    urllib.request.urlretrieve(model_url, model_path)
+    #model_url = "https://raw.githubusercontent.com/princebari/Malaria-Disease-Detection-Using-Transfer-Learning/main/InceptionV3.h5"
+    #model_path = "InceptionV3.h5"
+    #urllib.request.urlretrieve(model_url, model_path)
 
     # Loading model
-    model = load_model(model_path)
+    model = load_model("InceptionV3.h5")
 
     # Rest of your code...
 
