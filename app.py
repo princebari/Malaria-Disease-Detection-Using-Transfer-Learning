@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 import imageio
 import matplotlib.pyplot as plt
+import urllib.request
 
 def resize_image(image_path):
   '''
@@ -16,6 +17,28 @@ def resize_image(image_path):
 
 def predict(image_path):
     # Loading model
+    import urllib.request
+
+def predict(image_path):
+    # Load the model file from GitHub
+    model_url = "https://raw.githubusercontent.com/your-username/your-repo-name/main/InceptionV3.h5"
+    model_path = "InceptionV3.h5"
+    urllib.request.urlretrieve(model_url, model_path)
+
+    # Loading model
+    model = load_model(model_path)
+
+    # Rest of your code...
+
+    # Make prediction
+    pred = model.predict(input_image)
+
+    # Convert the prediction to a label
+    if pred[0] > 0.5:
+        label = 'Parasitized Cell'
+    else:
+        label = 'Uninfected Cell'
+    return label
     model = load_model('InceptionV3.h5')
 
     # Read image
