@@ -16,7 +16,7 @@ def resize_image(image_path):
 
 def predict(image_path):
     # Loading model
-    model = load_model('Models/InceptionV3.h5')
+    model = load_model('InceptionV3.h5')
 
     # Read image
     image = imageio.imread(image_path)
