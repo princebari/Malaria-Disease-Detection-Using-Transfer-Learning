@@ -36,6 +36,10 @@ Binary Confusion Matrix
 
 <h2>Objective</h2>
  Given a cell image Predict whether the cell is parasitized or uninfected.
+ 
+ <h2>Results</h2>
+ ![image](https://github.com/princebari/Malaria-Disease-Detection-Using-Transfer-Learning/assets/115543070/f15d0f8e-e851-47e5-9a93-2de94a72f788)
+
 
 <h2>Web app URL</h2>
 
