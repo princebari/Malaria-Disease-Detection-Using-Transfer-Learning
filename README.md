@@ -46,3 +46,8 @@ Binary Confusion Matrix
 
 <h2>Web app URL</h2>
 
+https://huggingface.co/spaces/Princebari/Malaria-Disease-Detection
+
+![image](https://github.com/princebari/Malaria-Disease-Detection-Using-Transfer-Learning/assets/115543070/16e9d393-a247-4281-85a3-2172f10bb451)
+![image](https://github.com/princebari/Malaria-Disease-Detection-Using-Transfer-Learning/assets/115543070/a00f080b-83dd-45bc-997d-7fde38ef3efd)
+
